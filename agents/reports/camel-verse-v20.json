@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "frames_decoded": 169,
+  "video_resolution": [
+    720,
+    1280
+  ],
+  "roi": [
+    115,
+    386,
+    612,
+    486
+  ],
+  "comparisons": {
+    "reference_vs_first": {
+      "changed_pixels_over_25_pct": 10.98,
+      "edge_disagreement_pct": 8.944,
+      "mean_absolute_difference": 14.37
+    },
+    "reference_vs_last": {
+      "changed_pixels_over_25_pct": 11.04,
+      "edge_disagreement_pct": 8.984,
+      "mean_absolute_difference": 14.495
+    },
+    "first_vs_last": {
+      "changed_pixels_over_25_pct": 0.256,
+      "edge_disagreement_pct": 0.491,
+      "mean_absolute_difference": 1.598
+    }
+  },
+  "status": "HUMAN_REVIEW_REQUIRED"
+}
