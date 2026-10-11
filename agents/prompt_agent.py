@@ -29,8 +29,11 @@ def main():
     p.add_argument("--output", help="Optional JSON report path")
     a = p.parse_args()
     report = {"created_at": datetime.now(timezone.utc).isoformat(), "task": a.task, "subject": a.subject, "constraints": a.constraints, "prompt": generate(a.task,a.subject,a.constraints), "quality": "NOT_EVALUATED"}
-    if a.scores:
-        scores = dict(zip(CHECKS, [int(v) for v in a.scores.split(",")]))
+    if a.scores is not None:
+        values = [int(v.strip()) for v in a.scores.split(",")]
+        if len(values) != len(CHECKS):
+            p.error(f"--scores requires exactly {len(CHECKS)} comma-separated integers")
+        scores = dict(zip(CHECKS, values))
         report["quality"] = audit(scores, a.critical)
         report["quality"]["scores"] = scores
     print(json.dumps(report, ensure_ascii=False, indent=2))
