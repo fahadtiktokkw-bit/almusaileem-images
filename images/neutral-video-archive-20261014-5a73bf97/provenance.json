@@ -1,0 +1,37 @@
+{
+  "created": "2026-10-14",
+  "purpose": "Neutral illustrative cover for archived video pages where the depicted subject has not been verified.",
+  "origin": "Original AI-generated artwork created with OpenAI image generation. Not a video frame or a photograph of executed work.",
+  "alt_ar": "رسم توضيحي لأرشيف فيديوهات يضم مجلدات وإطار فيلم مع رمز تشغيل بألوان محايدة",
+  "caption_ar": "رسم توضيحي مولّد بالذكاء الاصطناعي لأرشيف الفيديوهات؛ لا يمثل لقطة من الفيديو أو مشروعًا منفذًا.",
+  "prompt": "Use case: stylized-concept\nAsset type: original neutral editorial illustration for video archive webpages, landscape 3:2.\nPrimary request: an abstract video archive/library graphic with a small group of plain archival file folders and one simple film frame featuring a play triangle. Make a carefully composed, elegant minimal three-dimensional paper-cut editorial illustration.\nScene/backdrop: warm cream seamless abstract background with subtle soft shadow.\nSubject: generic unlabeled folders, a simple blank film frame, and play symbol only.\nComposition/framing: balanced centered composition, generous margins, complete objects visible, wide 3:2 canvas.\nColor palette: restrained warm neutrals, cream, sand, beige, muted taupe, a little charcoal contrast.\nText: none.\nConstraints: must clearly read as a conceptual illustration about a video archive. No photographs or photo thumbnails inside the frame. No text, letters, numbers, watermarks, logos, people, homes, rooms, interiors, buildings, paint cans, brushes, material samples, construction tools, or executed projects. Do not suggest the contents of any archived video.",
+  "files": {
+    "video-archive-ai-original.png": {
+      "bytes": 1931959,
+      "sha256": "f67e24a11f429e72158769e24ad61a41c7087ffcf1c96fd178ab5749356b23ae",
+      "git_blob_sha": "e8e6bc92a627b13002c43b715b1f132d613ef321",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "video-archive-ai-1200.webp": {
+      "bytes": 36970,
+      "sha256": "53c99e095e40efb1a08a7eb0e09dfd4d28b0baad4fb839b0a96e56586011ef97",
+      "git_blob_sha": "d0e9f5563dbc0fb25c3d0fc9c14438f9770956c4",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    "video-archive-ai-640.webp": {
+      "bytes": 10214,
+      "sha256": "57858e3db2fdc16d3daceaab2f16e37705f340cba78e06dbfecc4761dfa919e2",
+      "git_blob_sha": "138e2f0a3c6ddbbaae27957d78063c7cf83d4a05",
+      "dimensions": [
+        640,
+        427
+      ]
+    }
+  }
+}
