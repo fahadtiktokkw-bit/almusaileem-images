@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const c=JSON.parse(fs.readFileSync(new URL('./catalog.json',import.meta.url),'utf8'));
+if(c.products.length!==3)throw new Error('This 15-second template expects exactly 3 products.');
+const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+let h=fs.readFileSync(new URL('./template.html.txt',import.meta.url),'utf8');
+const starts=[0,4.5,9],durations=[4.5,4.5,6];
+const products=c.products.map((p,i)=>`<section id="product-${i}" class="product clip" data-start="${starts[i]}" data-duration="${durations[i]}" data-track-index="1"><div id="card-${i}" class="card"><div class="specimen"><img src="${esc(p.image)}" alt="بديل الحجر ${esc(p.code)} ${esc(p.name)}"></div><div class="meta"><div><div class="model-label">اللون</div><div class="name">${esc(p.name)}</div></div><div><div class="model-label">الموديل</div><div class="code">${esc(p.code)}</div></div></div></div></section>`).join('');
+const thumbs=c.products.map((p,i)=>`<div class="thumb"><img src="${esc(p.image.replace('.png','-thumb.png'))}" alt=""><div class="thumb-code">${esc(p.code)}</div><div id="active-${i}" class="active clip" data-start="${starts[i]}" data-duration="${durations[i]}" data-track-index="${i+2}"></div></div>`).join('');
+for(const [k,v] of Object.entries({...c,products,thumbs}))h=h.replaceAll('{{'+k+'}}',typeof v==='string'&&(k==='products'||k==='thumbs')?v:esc(v));
+fs.writeFileSync(new URL('./index.html',import.meta.url),h);
+console.log('Built index.html: 1080x1920, 15s, 3 original samples');

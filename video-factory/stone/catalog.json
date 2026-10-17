@@ -1,0 +1,23 @@
+{
+  "headline": "النقشة تغيّر الجدار",
+  "subtitle": "بديل الحجر في الكويت",
+  "phone": "56510526",
+  "instagram": "@almusaileempaint",
+  "products": [
+    {
+      "code": "300-1",
+      "name": "أبيض",
+      "image": "assets/300-1.png"
+    },
+    {
+      "code": "300-2",
+      "name": "كريمي",
+      "image": "assets/300-2.png"
+    },
+    {
+      "code": "300-3A",
+      "name": "رمادي إسمنتي",
+      "image": "assets/300-3A.png"
+    }
+  ]
+}

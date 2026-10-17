@@ -1,0 +1,15 @@
+{
+  "name": "almusaileem-stone-video-factory",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "hyperframes check",
+    "render": "node produce.mjs",
+    "verify": "node verify.mjs"
+  },
+  "dependencies": {
+    "hyperframes": "0.8.167",
+    "puppeteer-core": "25.10.0"
+  }
+}

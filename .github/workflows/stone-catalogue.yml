@@ -1,0 +1,70 @@
+name: Almusaileem Stone Video
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'video-factory/stone/**'
+      - '.github/workflows/stone-catalogue.yml'
+permissions:
+  contents: write
+concurrency:
+  group: stone-catalogue-main
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: video-factory/stone
+    env:
+      HYPERFRAMES_SKIP_SKILLS: '1'
+      HYPERFRAMES_NO_UPDATE_CHECK: '1'
+      PRODUCER_BROWSER_GPU_MODE: software
+      STONE_OUTPUT_DIR: ${{ runner.temp }}/stone-render
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: video-factory/stone/package-lock.json
+      - name: Install FFmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - name: Install pinned dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Locate installed Chrome
+        run: |
+          browser=$(command -v google-chrome || command -v chromium || true)
+          if [ -z "$browser" ]; then
+            npx hyperframes browser ensure
+            browser=$(npx hyperframes browser path | tail -1)
+          fi
+          test -x "$browser"
+          echo "HYPERFRAMES_BROWSER_PATH=$browser" >> "$GITHUB_ENV"
+      - name: Build, render and verify
+        run: npm run render
+      - name: Save verified video permanently
+        run: |
+          mkdir -p ../../videos/stone
+          cp "$STONE_OUTPUT_DIR/catalogue.mp4" ../../videos/stone/latest.mp4
+          cp "$STONE_OUTPUT_DIR/preview.jpg" ../../videos/stone/preview.jpg
+          cp "$STONE_OUTPUT_DIR/verification.json" ../../videos/stone/verification.json
+          cp "$STONE_OUTPUT_DIR/run.json" ../../videos/stone/run.json
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add ../../videos/stone
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified stone catalogue video [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Keep run output and diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stone-video-${{ github.run_number }}
+          path: ${{ runner.temp }}/stone-render/
+          retention-days: 30
+          if-no-files-found: warn
