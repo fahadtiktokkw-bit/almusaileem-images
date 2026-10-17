@@ -1,0 +1,192 @@
+[
+  {
+    "page": 1,
+    "code": "WAL01",
+    "description": "رمادي فاتح بتموجات ذهبية هادئة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal01.webp",
+    "alt": "بديل الرخام المطفي موديل WAL01، رمادي فاتح بتموجات ذهبية هادئة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "5c45443d40ad93766724bf28579a80d0ef40a9a7b4341d00f77701ffac2c1e6e",
+    "outside_header_mean_pixel_difference": 0.18869568702902037
+  },
+  {
+    "page": 2,
+    "code": "WAL02",
+    "description": "رمادي فاتح بنقشة دقيقة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal02.webp",
+    "alt": "بديل الرخام المطفي موديل WAL02، رمادي فاتح بنقشة دقيقة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "31eeb2084154a355ed580e3ea3815bb97346f48cd8c310462ef4c640fa67d779",
+    "outside_header_mean_pixel_difference": 0.051183261183261185
+  },
+  {
+    "page": 3,
+    "code": "WAL03",
+    "description": "أبيض رمادي هادئ",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal03.webp",
+    "alt": "بديل الرخام المطفي موديل WAL03، أبيض رمادي هادئ، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "4df8d5d8fd9075788088ec0623b684f2bacf15403bb43182be0ae2e8b2765e83",
+    "outside_header_mean_pixel_difference": 0.028643578643578645
+  },
+  {
+    "page": 4,
+    "code": "WAL04",
+    "description": "أبيض بعروق رمادية طويلة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal04.webp",
+    "alt": "بديل الرخام المطفي موديل WAL04، أبيض بعروق رمادية طويلة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "0e1d028719522cbfa0ae1d2698853379f7aad24c350958e0f804d94808580aa6",
+    "outside_header_mean_pixel_difference": 0.0338985088985089
+  },
+  {
+    "page": 5,
+    "code": "WAL05",
+    "description": "رمادي بعروق فاتحة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal05.webp",
+    "alt": "بديل الرخام المطفي موديل WAL05، رمادي بعروق فاتحة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "038f66e4cdd403f4aba6e00c8888bebf7737447c4d86f314f04b46a444d52f2e",
+    "outside_header_mean_pixel_difference": 0.0293001443001443
+  },
+  {
+    "page": 6,
+    "code": "WAL06",
+    "description": "رمادي فاتح بعروق مائلة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal06.webp",
+    "alt": "بديل الرخام المطفي موديل WAL06، رمادي فاتح بعروق مائلة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "3bb908632e7893bc97889f70a20303cdc3cf65bba6ae7d0ef00c269ebad0e7c2",
+    "outside_header_mean_pixel_difference": 0.06811928811928812
+  },
+  {
+    "page": 7,
+    "code": "WAL07",
+    "description": "أبيض رمادي بنقشة متداخلة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal07.webp",
+    "alt": "بديل الرخام المطفي موديل WAL07، أبيض رمادي بنقشة متداخلة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "a358e3bb78db3d75f3a729b7f7c1a6e082face8d876ac546dca04723e889d221",
+    "outside_header_mean_pixel_difference": 0.058915343915343914
+  },
+  {
+    "page": 8,
+    "code": "WAL08",
+    "description": "رمادي فاتح بعروق متشابكة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal08.webp",
+    "alt": "بديل الرخام المطفي موديل WAL08، رمادي فاتح بعروق متشابكة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "bb9696851067022c96984d0931ed048c6cb53f60b84015bdb4e213900c8b598d",
+    "outside_header_mean_pixel_difference": 0.11257014590347923
+  },
+  {
+    "page": 9,
+    "code": "WAL11",
+    "description": "رمادي فاتح بخطوط طولية",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal11.webp",
+    "alt": "بديل الرخام المطفي موديل WAL11، رمادي فاتح بخطوط طولية، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "f19bdfe81488026ebcb7c287b1db8bb91fdba636005b9ee3e62ccf5c9812a790",
+    "outside_header_mean_pixel_difference": 0.05550986050986051
+  },
+  {
+    "page": 10,
+    "code": "WAL14",
+    "description": "أبيض رمادي بتموجات مائلة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal14.webp",
+    "alt": "بديل الرخام المطفي موديل WAL14، أبيض رمادي بتموجات مائلة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "d35c206cef96fee5d7b4898754e9a90f9f1a2984bb41b018ebcf27c018ba46eb",
+    "outside_header_mean_pixel_difference": 0.042728074394741064
+  },
+  {
+    "page": 11,
+    "code": "WAL15",
+    "description": "رمادي بعروق متفرعة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal15.webp",
+    "alt": "بديل الرخام المطفي موديل WAL15، رمادي بعروق متفرعة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "62c5c6fad3579e01c43479a43deac5134f93778c878b088c01839bdf6c645458",
+    "outside_header_mean_pixel_difference": 0.038414301747635084
+  },
+  {
+    "page": 12,
+    "code": "WAL16",
+    "description": "رمادي داكن بنقشة متباينة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal16.webp",
+    "alt": "بديل الرخام المطفي موديل WAL16، رمادي داكن بنقشة متباينة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "38895ab8286008c15ba23cb28779e31f099e75b44a1dcf0b4a3ecbffe2aa86dc",
+    "outside_header_mean_pixel_difference": 0.15804553471220137
+  },
+  {
+    "page": 13,
+    "code": "WAL17",
+    "description": "رمادي بني بعروق فاتحة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal17.webp",
+    "alt": "بديل الرخام المطفي موديل WAL17، رمادي بني بعروق فاتحة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "bcfe3f23bca7d43fe7c0ee88396a07ae88a1b7aaa221143bf0fa2ee65d584de3",
+    "outside_header_mean_pixel_difference": 0.07470017636684304
+  },
+  {
+    "page": 14,
+    "code": "WAL18",
+    "description": "رمادي داكن بتدرج عمودي",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal18.webp",
+    "alt": "بديل الرخام المطفي موديل WAL18، رمادي داكن بتدرج عمودي، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "5e489c0a009876bb69f31a69a4dd9ae9506c6f7322ffb50c4010e70d0c7a7123",
+    "outside_header_mean_pixel_difference": 0.10581048581048581
+  },
+  {
+    "page": 15,
+    "code": "WAL20",
+    "description": "بني داكن بعروق ذهبية",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal20.webp",
+    "alt": "بديل الرخام المطفي موديل WAL20، بني داكن بعروق ذهبية، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "372a08c1512ccaf8a6e56d3a808ae26f4907bb624f7102c46a3f64bff3ac59eb",
+    "outside_header_mean_pixel_difference": 0.3104184704184704
+  },
+  {
+    "page": 16,
+    "code": "WAL21",
+    "description": "أبيض بنقشة طولية",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal21.webp",
+    "alt": "بديل الرخام المطفي موديل WAL21، أبيض بنقشة طولية، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "b095ce77971588411bf5468068a6fbcd98801440ee724d4a3a6c5ab9b1d2b068",
+    "outside_header_mean_pixel_difference": 0.040374378707712044
+  },
+  {
+    "page": 17,
+    "code": "WAL22",
+    "description": "بيج رمادي بنقشة محببة",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal22.webp",
+    "alt": "بديل الرخام المطفي موديل WAL22، بيج رمادي بنقشة محببة، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "2920958c5d1a4885ba1236edcf58f76fa9597a82a64c6cab9e3ed0ecdf58ffcb",
+    "outside_header_mean_pixel_difference": 0.12104056437389771
+  },
+  {
+    "page": 18,
+    "code": "WAL23",
+    "description": "أبيض بنقشة ملمسية",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal23.webp",
+    "alt": "بديل الرخام المطفي موديل WAL23، أبيض بنقشة ملمسية، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "b8b3186678e6aed25daa43a747a29a560a767806bb5d03dbceea39691df5d03b",
+    "outside_header_mean_pixel_difference": 0.12294372294372294
+  },
+  {
+    "page": 19,
+    "code": "WAL25",
+    "description": "بيج فاتح بنقشة ملمسية",
+    "size": null,
+    "image": "almusaileem-matte-marble-wal25.webp",
+    "alt": "بديل الرخام المطفي موديل WAL25، بيج فاتح بنقشة ملمسية، بشعار المسيليم ورقم 56510526",
+    "source_sha256": "606dbcf67535bdce47b00948ea85ec6a4c52ee5f9dac860887e0e78086eba5f0",
+    "outside_header_mean_pixel_difference": 0.20529902196568864
+  }
+]
